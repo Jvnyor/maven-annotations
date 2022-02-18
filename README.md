@@ -2,6 +2,7 @@
 
 mvn clean compile assembly:single
 
+```
 <plugin>
       <artifactId>maven-assembly-plugin</artifactId>
       <configuration>
@@ -15,3 +16,4 @@ mvn clean compile assembly:single
         </descriptorRefs>
       </configuration>
 </plugin>
+```
